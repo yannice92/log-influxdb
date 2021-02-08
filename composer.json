@@ -1,0 +1,22 @@
+{
+    "name": "yannice92/log-influxdb",
+    "type": "library",
+    "require": {
+        "php": ">=7.0",
+        "influxdb/influxdb-php": "^1.15",
+        "nesbot/carbon": "^2.0",
+        "illuminate/support": "^6.0"
+    },
+    "authors": [
+        {
+            "name": "Fernando Yannice",
+            "email": "yannice92@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Yannice92\\LogInfluxDb\\": "src/"
+        }
+    }
+}
