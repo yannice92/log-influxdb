@@ -11,6 +11,7 @@ namespace Yannice92\LogInfluxDb\Drivers;
 
 use Carbon\Carbon;
 use InfluxDB;
+use Yannice92\LogInfluxDb\Helpers\LogHelper;
 
 class InfluxDbDriver implements LogDriverInterface
 {
